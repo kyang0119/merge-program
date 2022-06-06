@@ -1,1 +1,5 @@
 # merge-program
+
+1. Write a "merge" program that merges two ordered lists of integers into a new ordered list. For example, given two ordered lists (1,4,6,9) and (0,2,3,7) as input arguments, "merge" should produce a new list (0,1,2,3,4,6,7,9) which is also ordered. Another example could be to merge (-3,0,6) and (-2,0,4,5,9) to produce (-3,-2,0,0,4,5,6,9). You may assume the number of integers in each list is known.
+
+2. The "merge" program assumes that the two input lists (in increasing order) of integers are stored in the data area. It loads the integers and merges them into an ordered list. The resulting ordered list (e.g., (-3,-2,0,0,4,5,6,9)) should be stored back into the data area. It is at your own choice how the data area (i.e., the lists) is arranged, and whether the resulting list is overwritten onto the original two lists. But be sure to give meaningful labels and clearly indicate (using a label or comments) where the merged list is stored. Before your program terminates, it should print out the merged list of integers (comma or space separated) which should be in increasing order.
